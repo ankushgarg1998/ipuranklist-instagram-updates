@@ -1,3 +1,4 @@
+import sys, json
 import logging
 import logging.handlers
 import os
@@ -15,6 +16,9 @@ logger_file_handler = logging.handlers.RotatingFileHandler(
 formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 logger_file_handler.setFormatter(formatter)
 logger.addHandler(logger_file_handler)
+
+inp = json.loads(sys.argv[1])
+logger.info(f'Input: {inp["key"]}')
 
 try:
     SOME_SECRET = os.environ["SOME_SECRET"]

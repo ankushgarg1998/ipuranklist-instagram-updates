@@ -4,3 +4,6 @@
 2022-12-08 12:31:31,806 - __main__ - INFO - Weather in Berlin: 3.14
 2022-12-08 12:43:16,407 - __main__ - INFO - Token value: q3123
 2022-12-08 12:43:16,560 - __main__ - INFO - Weather in Berlin: 3.14
+2022-12-08 18:28:06,300 - __main__ - INFO - Input: 1
+2022-12-08 18:28:06,301 - __main__ - INFO - Token value: Token not available!
+2022-12-08 18:28:08,972 - __main__ - INFO - Weather in Berlin: 2.88

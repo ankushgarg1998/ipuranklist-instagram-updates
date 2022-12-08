@@ -2,7 +2,12 @@ name: Test
 
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 
-on: [push]
+on: 
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: "Payload"
+        required: true
 
 jobs:
   build:
@@ -24,7 +29,7 @@ jobs:
       - name: execute py script # run main.py
         env:
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
-        run: python main.py
+        run: python main.py '${{ github.event.inputs.payload }}'
           
       - name: commit files
         run: |

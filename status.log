@@ -7,3 +7,6 @@
 2022-12-08 18:28:06,300 - __main__ - INFO - Input: 1
 2022-12-08 18:28:06,301 - __main__ - INFO - Token value: Token not available!
 2022-12-08 18:28:08,972 - __main__ - INFO - Weather in Berlin: 2.88
+2022-12-08 13:02:01,528 - __main__ - INFO - Input: value
+2022-12-08 13:02:01,528 - __main__ - INFO - Token value: q3123
+2022-12-08 13:02:01,990 - __main__ - INFO - Weather in Berlin: 2.88

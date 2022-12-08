@@ -1,4 +1,4 @@
-name: Generate Tokens On Input
+name: Test
 
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 

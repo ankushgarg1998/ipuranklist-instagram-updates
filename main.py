@@ -50,7 +50,7 @@ logger.info("Img Generation Success")
 # --- Upload image on Instagram ---
 bot = Bot()
 instaUsername = "ipuranklist"
-bot.login(instaUsername, instaPassword)
+bot.login(username=instaUsername, password=instaPassword)
 
 caption = "This is a test post. No actual results released.\n\n 16-11-22: Exam (Dec. 2021) Revised Result for M.Tech. (CSE), Enrol. No. 00516404820\n\n16-11-22: Exam (July 2022) Result for B.TECH(CE), 2nd Sem"
 bot.upload_photo(finalImgName, caption)

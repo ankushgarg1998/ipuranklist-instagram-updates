@@ -13,3 +13,9 @@
 2022-12-11 11:00:44,074 - __main__ - INFO - Payload: {'Data': 1}
 2022-12-11 11:07:10,966 - __main__ - INFO - Payload: {'Data': 1}
 2022-12-11 11:12:40,367 - __main__ - INFO - Payload: {'Data': 1}
+2022-12-11 11:23:23,264 - __main__ - INFO - Payload: {'Data': 1}
+2022-12-11 11:23:23,307 - __main__ - INFO - Img Generation Success
+2022-12-11 11:24:02,736 - __main__ - INFO - Payload: {'Data': 1}
+2022-12-11 11:24:02,780 - __main__ - INFO - Img Generation Success
+2022-12-11 11:24:48,982 - __main__ - INFO - Payload: {'Data': 1}
+2022-12-11 11:24:49,023 - __main__ - INFO - Img Generation Success

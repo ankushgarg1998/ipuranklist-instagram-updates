@@ -2,37 +2,57 @@ import sys, json
 import logging
 import logging.handlers
 import os
+from PIL import Image, ImageFont, ImageDraw
+from instabot import Bot
 
-import requests
 
+# --- Setting up Logging ---
+logFileName = "status.log"
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 logger_file_handler = logging.handlers.RotatingFileHandler(
-    "status.log",
-    maxBytes=1024 * 1024,
-    backupCount=1,
-    encoding="utf8",
+    logFileName,
+    maxBytes = 1024 * 1024,
+    backupCount = 2,
+    encoding = "utf8",
 )
 formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 logger_file_handler.setFormatter(formatter)
 logger.addHandler(logger_file_handler)
+# --- ---
 
-inp = json.loads(sys.argv[1])
-logger.info(f'Input: {inp["key"]}')
 
+# --- Loading Inputs ---
+payload = json.loads(sys.argv[1])
+logger.info(f"Payload: { payload }")
 try:
-    SOME_SECRET = os.environ["SOME_SECRET"]
+    instaPassword = os.environ["INSTA_PASSWORD"]
 except KeyError:
-    SOME_SECRET = "Token not available!"
-    #logger.info("Token not available!")
-    #raise
+    instaPassword = "Instagram password not available!"
+# --- ---
 
 
-if __name__ == "__main__":
-    logger.info(f"Token value: {SOME_SECRET}")
+# --- Generating Image ---
+imgPath = "./assets/img/prep.jpg"
+img = Image.open(imgPath)
+fontUrl = "./assets/font/LeagueSpartan-Bold.ttf"
+font = ImageFont.truetype(fontUrl, 100)
+finalImgName = "completed.jpg"
 
-    r = requests.get('https://weather.talkpython.fm/api/weather/?city=Berlin&country=DE')
-    if r.status_code == 200:
-        data = r.json()
-        temperature = data["forecast"]["temp"]
-        logger.info(f'Weather in Berlin: {temperature}')
+draw = ImageDraw.Draw(img)
+imgText = "Test GH Actions #1"
+draw.text((22, 880), imgText, (256, 256, 256), font = font)
+img.save(finalImgName)
+logger.info("Img Generation Success")
+# --- ---
+
+
+# --- Upload image on Instagram ---
+bot = Bot()
+instaUsername = "ipuranklist"
+bot.login(instaUsername, instaPassword)
+
+caption = "This is a test post. No actual results released.\n\n 16-11-22: Exam (Dec. 2021) Revised Result for M.Tech. (CSE), Enrol. No. 00516404820\n\n16-11-22: Exam (July 2022) Result for B.TECH(CE), 2nd Sem"
+bot.upload_photo(finalImgName, caption)
+logger.info("Img Upload Success")
+# --- ---

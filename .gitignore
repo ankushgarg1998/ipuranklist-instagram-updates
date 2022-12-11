@@ -6,3 +6,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Instabot Configs
+config/
+
+# Completed Image - To prevent generated images from being committed
+completed.jpg

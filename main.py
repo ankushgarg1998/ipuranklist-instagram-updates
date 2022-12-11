@@ -3,7 +3,14 @@ import logging
 import logging.handlers
 import os
 from PIL import Image, ImageFont, ImageDraw
-from instabot import Bot
+
+
+# --- Importing customized instabot lib ---
+from pathlib import Path
+path_root = f'{Path(__file__).parents[0]}/lib'
+sys.path.append(str(path_root))
+from lib.instabot import Bot
+# --- ---
 
 
 # --- Setting up Logging ---
@@ -40,7 +47,7 @@ font = ImageFont.truetype(fontUrl, 100)
 finalImgName = "completed.jpg"
 
 draw = ImageDraw.Draw(img)
-imgText = "Test GH Actions #1"
+imgText = "Test GH Actions #2"
 draw.text((22, 880), imgText, (256, 256, 256), font = font)
 img.save(finalImgName)
 logger.info("Img Generation Success")
@@ -50,7 +57,7 @@ logger.info("Img Generation Success")
 # --- Upload image on Instagram ---
 bot = Bot()
 instaUsername = "ipuranklist"
-bot.login(username=instaUsername, password=instaPassword)
+bot.login(username = instaUsername, password = instaPassword)
 
 caption = "This is a test post. No actual results released.\n\n 16-11-22: Exam (Dec. 2021) Revised Result for M.Tech. (CSE), Enrol. No. 00516404820\n\n16-11-22: Exam (July 2022) Result for B.TECH(CE), 2nd Sem"
 bot.upload_photo(finalImgName, caption)

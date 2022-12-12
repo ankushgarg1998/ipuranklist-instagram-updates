@@ -28,7 +28,7 @@ jobs:
           
       - name: execute py script # run main.py
         env:
-          SOME_SECRET: ${{ secrets.SOME_SECRET }}
+          INSTA_PASSWORD: ${{ secrets.INSTA_PASSWORD }}
         run: python main.py '${{ github.event.inputs.payload }}'
           
       - name: commit files

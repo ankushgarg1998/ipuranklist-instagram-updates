@@ -35,7 +35,8 @@ logger.info(f"Payload: { payload }")
 try:
     instaPassword = os.environ["INSTA_PASSWORD"]
 except KeyError:
-    instaPassword = "Instagram password not available!"
+    logger.info("Instagram password not available!")
+    raise
 # --- ---
 
 
@@ -47,7 +48,7 @@ font = ImageFont.truetype(fontUrl, 100)
 finalImgName = "completed.jpg"
 
 draw = ImageDraw.Draw(img)
-imgText = "Test GH Actions #2"
+imgText = "🧨 Sauda Khara Khara!"
 draw.text((22, 880), imgText, (256, 256, 256), font = font)
 img.save(finalImgName)
 logger.info("Img Generation Success")
@@ -57,7 +58,7 @@ logger.info("Img Generation Success")
 # --- Upload image on Instagram ---
 bot = Bot()
 instaUsername = "ipuranklist"
-logger.info(f'length: {len(instaPassword)}')
+# logger.info(f'length: {len(instaPassword)}')
 bot.login(username = instaUsername, password = instaPassword)
 
 caption = "This is a test post. No actual results released.\n\n 16-11-22: Exam (Dec. 2021) Revised Result for M.Tech. (CSE), Enrol. No. 00516404820\n\n16-11-22: Exam (July 2022) Result for B.TECH(CE), 2nd Sem"

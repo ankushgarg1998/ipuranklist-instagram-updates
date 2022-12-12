@@ -54,3 +54,6 @@
 2022-12-12 15:18:58,510 - __main__ - INFO - Payload: {'key': 'value', 'key2': 2}
 2022-12-12 15:18:58,535 - __main__ - INFO - Img Generation Success
 2022-12-12 15:18:58,536 - __main__ - INFO - length: 33
+2022-12-12 15:47:37,238 - __main__ - INFO - Payload: {'data': 1}
+2022-12-12 15:47:37,264 - __main__ - INFO - Img Generation Success
+2022-12-12 15:48:13,968 - __main__ - INFO - Img Upload Success

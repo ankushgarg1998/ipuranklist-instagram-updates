@@ -1,0 +1,3 @@
+2022-12-18 08:55:28,885 - services.logger - INFO - Payload: development - result
+2022-12-18 08:55:28,925 - services.logger - INFO - Img Generation Success
+2022-12-18 08:56:01,629 - services.logger - INFO - Img Upload Success

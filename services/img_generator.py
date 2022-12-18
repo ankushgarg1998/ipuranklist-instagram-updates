@@ -1,9 +1,11 @@
+import random
 from PIL import Image, ImageFont, ImageDraw
 from . import config
 
 def generate_image(self):
     # Draw Image
-    img = Image.open(config.IMG_PATH)
+    img_path = config.IMG_PATH_PREFEIX + str(random.randint(1, config.TOTAL_IMAGES)) + '.jpg'
+    img = Image.open(img_path)
     draw = ImageDraw.Draw(img)
     
     # Add Title

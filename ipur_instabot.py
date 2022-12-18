@@ -6,10 +6,10 @@ from services.insta_uploader import upload_post
 
 
 # --- Uncomment these for local testing ---
-# import os
-# os.environ['INSTA_PASSWORD'] = 'asdf'
-# os.environ['INSTA_PASSWORD_DEV'] = 'asdf'
-# ENV_PRODUCTION = 'production'
+import os
+os.environ['INSTA_PASSWORD'] = 'asdf'
+os.environ['INSTA_PASSWORD_DEV'] = 'asdf'
+ENV_PRODUCTION = 'development'
 # --- ---
 
 class IPURInstaBot(object):

@@ -21,7 +21,8 @@ INSTA_PASSWORD_KEYS = {
 
 
 # --- IMAGE CONFIGS ---
-IMG_PATH = './assets/img/prep.jpg'
+TOTAL_IMAGES = 11
+IMG_PATH_PREFEIX = './assets/img/'
 FONT_PATH = './assets/font/LeagueSpartan-Bold.ttf'
 FINISHED_IMG_PATH = './assets/img/completed.jpg'
 

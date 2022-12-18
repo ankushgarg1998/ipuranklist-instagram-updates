@@ -1,7 +1,7 @@
 import logging
 import logging.handlers
 
-# --- Setting up Logging ---
+# --- Setting up Logger ---
 LOG_FILE_NAME = 'status.log'
 def init_logger():
     logger = logging.getLogger(__name__)

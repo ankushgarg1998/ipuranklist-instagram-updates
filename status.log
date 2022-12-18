@@ -54,3 +54,62 @@
 2022-12-12 15:18:58,510 - __main__ - INFO - Payload: {'key': 'value', 'key2': 2}
 2022-12-12 15:18:58,535 - __main__ - INFO - Img Generation Success
 2022-12-12 15:18:58,536 - __main__ - INFO - length: 33
+2022-12-18 11:40:06,554 - __main__ - INFO - Payload: {'data': 1}
+2022-12-18 11:40:06,554 - __main__ - INFO - Instagram password not available!
+2022-12-18 11:40:24,138 - __main__ - INFO - Payload: {'data': 1}
+2022-12-18 11:40:24,139 - __main__ - INFO - Instagram password not available!
+2022-12-18 11:40:43,420 - __main__ - INFO - Payload: {'data': 1}
+2022-12-18 11:40:43,420 - __main__ - INFO - Instagram password not available!
+2022-12-18 11:40:43,500 - __main__ - INFO - Img Generation Success
+2022-12-18 11:40:43,512 - __main__ - INFO - Img Upload Success
+2022-12-18 11:42:35,086 - __main__ - INFO - Payload: {'data': 1}
+2022-12-18 11:42:35,087 - __main__ - INFO - Instagram password not available!
+2022-12-18 11:42:35,141 - __main__ - INFO - Img Generation Success
+2022-12-18 11:42:35,153 - __main__ - INFO - Img Upload Success
+2022-12-18 11:42:47,477 - __main__ - INFO - Payload: {'data': 1}
+2022-12-18 11:42:47,477 - __main__ - INFO - Instagram password not available!
+2022-12-18 11:42:47,531 - __main__ - INFO - Img Generation Success
+2022-12-18 11:42:47,542 - __main__ - INFO - Img Upload Success
+2022-12-18 11:44:06,303 - __main__ - INFO - Payload: {'data': 1}
+2022-12-18 11:44:06,304 - __main__ - INFO - Instagram password not available!
+2022-12-18 11:44:06,354 - __main__ - INFO - Img Generation Success
+2022-12-18 11:44:06,368 - __main__ - INFO - Img Upload Success
+2022-12-18 11:48:09,462 - __main__ - INFO - x
+2022-12-18 11:50:05,453 - __main__ - INFO - x
+2022-12-18 11:50:05,453 - __main__ - INFO - Payload: {'data': 1}
+2022-12-18 11:50:05,453 - __main__ - INFO - Instagram password not available!
+2022-12-18 11:53:22,190 - __main__ - INFO - x
+2022-12-18 11:53:42,203 - __main__ - INFO - x
+2022-12-18 11:53:42,203 - __main__ - INFO - Payload: {'data': 1}
+2022-12-18 11:53:42,203 - __main__ - INFO - Instagram password not available!
+2022-12-18 11:54:25,538 - __main__ - INFO - x
+2022-12-18 11:54:25,538 - __main__ - INFO - Payload: {'data': 1}
+2022-12-18 12:58:50,832 - __main__ - INFO - Payload: development - datesheet
+2022-12-18 13:00:18,342 - __main__ - INFO - Payload: development - datesheet
+2022-12-18 13:00:18,342 - __main__ - INFO - Instagram password not available!
+2022-12-18 13:00:34,840 - __main__ - INFO - Payload: development - datesheet
+2022-12-18 13:00:49,712 - __main__ - INFO - Payload: development - datesheet
+2022-12-18 13:01:01,553 - __main__ - INFO - Payload: development - test
+2022-12-18 13:01:06,979 - __main__ - INFO - Payload: development - result
+2022-12-18 13:01:09,717 - __main__ - INFO - Payload: development - datesheet
+2022-12-18 13:01:19,221 - __main__ - INFO - Payload: development - circular
+2022-12-18 13:05:38,649 - __main__ - INFO - Payload: development - datesheet
+2022-12-18 13:06:10,474 - __main__ - INFO - Payload: development - datesheet
+2022-12-18 13:06:42,163 - __main__ - INFO - Payload: development - datesheet
+2022-12-18 13:06:42,225 - __main__ - INFO - Img Generation Success
+2022-12-18 13:15:45,237 - services.logger - INFO - Payload: development - datesheet
+2022-12-18 13:16:06,621 - services.logger - INFO - Payload: development - result
+2022-12-18 13:22:29,566 - services.logger - INFO - Payload: development - result
+2022-12-18 13:22:29,618 - services.logger - INFO - Img Generation Success
+2022-12-18 13:31:14,168 - services.logger - INFO - Payload: development - result
+2022-12-18 13:40:57,714 - services.logger - INFO - Payload: development - result
+2022-12-18 13:41:21,775 - services.logger - INFO - Payload: development - result
+2022-12-18 13:41:21,775 - services.logger - INFO - Instagram password not available!
+2022-12-18 13:41:34,239 - services.logger - INFO - Payload: development - result
+2022-12-18 13:41:58,812 - services.logger - INFO - Payload: development - result
+2022-12-18 14:00:50,039 - services.logger - INFO - Payload: development - result
+2022-12-18 14:01:59,583 - services.logger - INFO - Payload: development - result
+2022-12-18 14:01:59,634 - services.logger - INFO - Img Generation Success
+2022-12-18 14:02:29,164 - services.logger - INFO - Payload: development - result
+2022-12-18 14:02:29,216 - services.logger - INFO - Img Generation Success
+2022-12-18 14:03:06,465 - services.logger - INFO - Img Upload Success

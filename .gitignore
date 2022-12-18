@@ -1,6 +1,9 @@
 # Instabot Configs
 config/
 
+# Mac ki bakchodi
+.DS_Store
+
 # Completed Image - To prevent generated images from being committed
 completed.jpg
 completed.jpg.REMOVE_ME

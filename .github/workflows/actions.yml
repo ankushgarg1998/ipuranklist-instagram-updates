@@ -29,7 +29,8 @@ jobs:
       - name: execute py script # run main.py
         env:
           INSTA_PASSWORD: ${{ secrets.INSTA_PASSWORD }}
-        run: python main.py '${{ github.event.inputs.payload }}'
+          INSTA_PASSWORD_DEV: ${{ secrets.INSTA_PASSWORD_DEV }}
+        run: python ipur_instabot.py '${{ github.event.inputs.payload }}'
           
       - name: commit files
         run: |

@@ -22,8 +22,9 @@ class IPURInstaBot(object):
 
     def main(self):
         load_inputs(self)
-        generate_image(self)
-        upload_post(self)
+        if (self.entry_type != config.ENTRY_TYPE_CIRCULAR):
+            generate_image(self)
+            upload_post(self)
 
 
 # --- EXECUTE MAIN ---

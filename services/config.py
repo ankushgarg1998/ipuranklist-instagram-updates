@@ -1,6 +1,7 @@
 # --- BASIC CONFIGS ---
 ENVIRONMENT = 'environment'
 ENTRY_TYPE = 'entryType'
+ENTRY_TYPE_CIRCULAR = 'circular'
 MESSAGE = 'message'
 
 ENV_DEVELOPMENT = 'development'

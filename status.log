@@ -72,3 +72,6 @@
 2022-12-22 12:15:31,076 - services.logger - INFO - Img Generation Success
 2022-12-22 12:16:04,895 - services.logger - INFO - Img Upload Success
 2022-12-23 08:26:11,963 - services.logger - INFO - Payload: production - circular
+2022-12-23 08:30:35,411 - services.logger - INFO - Payload: production - datesheet
+2022-12-23 08:30:35,455 - services.logger - INFO - Img Generation Success
+2022-12-23 08:31:09,957 - services.logger - INFO - Img Upload Success

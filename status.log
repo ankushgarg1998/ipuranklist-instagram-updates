@@ -118,3 +118,4 @@
 2022-12-30 11:20:35,082 - services.logger - INFO - Img Generation Success
 2022-12-30 11:20:39,585 - services.logger - INFO - Img Upload Success
 2022-12-30 11:21:11,078 - services.logger - INFO - Payload: production - circular
+2022-12-30 12:06:10,786 - services.logger - INFO - Payload: production - circular

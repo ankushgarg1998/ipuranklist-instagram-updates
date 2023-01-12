@@ -167,3 +167,6 @@
 2023-01-12 10:10:55,736 - services.logger - INFO - Payload: production - datesheet
 2023-01-12 10:10:55,792 - services.logger - INFO - Img Generation Success
 2023-01-12 10:11:01,434 - services.logger - INFO - Img Upload Success
+2023-01-12 11:50:31,820 - services.logger - INFO - Payload: production - result
+2023-01-12 11:50:31,860 - services.logger - INFO - Img Generation Success
+2023-01-12 11:50:39,635 - services.logger - INFO - Img Upload Success

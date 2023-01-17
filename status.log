@@ -217,3 +217,4 @@
 2023-01-17 12:40:30,760 - services.logger - INFO - Payload: production - result
 2023-01-17 12:40:30,802 - services.logger - INFO - Img Generation Success
 2023-01-17 12:40:35,444 - services.logger - INFO - Img Upload Success
+2023-01-17 13:31:05,246 - services.logger - INFO - Payload: production - circular

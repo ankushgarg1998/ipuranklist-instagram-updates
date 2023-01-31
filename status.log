@@ -384,3 +384,4 @@
 2023-01-31 13:05:33,381 - services.logger - INFO - Payload: production - datesheet
 2023-01-31 13:05:33,427 - services.logger - INFO - Img Generation Success
 2023-01-31 13:05:41,748 - services.logger - INFO - Img Upload Success
+2023-01-31 13:10:59,089 - services.logger - INFO - Payload: production - circular

@@ -401,3 +401,6 @@
 2023-02-01 12:11:11,134 - services.logger - INFO - Payload: production - circular
 2023-02-02 12:36:10,445 - services.logger - INFO - Payload: production - circular
 2023-02-02 12:40:52,156 - services.logger - INFO - Payload: production - circular
+2023-02-02 12:45:36,115 - services.logger - INFO - Payload: production - datesheet
+2023-02-02 12:45:36,166 - services.logger - INFO - Img Generation Success
+2023-02-02 12:45:41,665 - services.logger - INFO - Img Upload Success

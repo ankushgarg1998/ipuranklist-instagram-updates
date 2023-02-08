@@ -448,3 +448,6 @@
 2023-02-07 13:11:07,154 - services.logger - INFO - Payload: production - circular
 2023-02-07 13:16:05,451 - services.logger - INFO - Payload: production - circular
 2023-02-07 13:21:18,735 - services.logger - INFO - Payload: production - circular
+2023-02-08 05:30:33,018 - services.logger - INFO - Payload: production - result
+2023-02-08 05:30:33,058 - services.logger - INFO - Img Generation Success
+2023-02-08 05:30:40,505 - services.logger - INFO - Img Upload Success

@@ -451,3 +451,6 @@
 2023-02-08 05:30:33,018 - services.logger - INFO - Payload: production - result
 2023-02-08 05:30:33,058 - services.logger - INFO - Img Generation Success
 2023-02-08 05:30:40,505 - services.logger - INFO - Img Upload Success
+2023-02-08 11:35:36,208 - services.logger - INFO - Payload: production - datesheet
+2023-02-08 11:35:36,253 - services.logger - INFO - Img Generation Success
+2023-02-08 11:35:41,074 - services.logger - INFO - Img Upload Success

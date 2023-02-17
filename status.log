@@ -540,3 +540,6 @@
 2023-02-16 12:35:30,811 - services.logger - INFO - Img Generation Success
 2023-02-16 12:35:34,822 - services.logger - INFO - Img Upload Success
 2023-02-17 09:45:57,546 - services.logger - INFO - Payload: production - circular
+2023-02-17 09:55:43,665 - services.logger - INFO - Payload: production - datesheet
+2023-02-17 09:55:43,722 - services.logger - INFO - Img Generation Success
+2023-02-17 09:55:59,336 - services.logger - INFO - Img Upload Success

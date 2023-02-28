@@ -619,3 +619,4 @@
 2023-02-28 11:35:33,358 - services.logger - INFO - Payload: production - result
 2023-02-28 11:35:33,405 - services.logger - INFO - Img Generation Success
 2023-02-28 11:35:38,907 - services.logger - INFO - Img Upload Success
+2023-02-28 11:36:18,416 - services.logger - INFO - Payload: production - circular

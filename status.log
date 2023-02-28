@@ -603,3 +603,4 @@
 2023-02-28 07:05:35,076 - services.logger - INFO - Payload: production - datesheet
 2023-02-28 07:05:35,120 - services.logger - INFO - Img Generation Success
 2023-02-28 07:05:40,692 - services.logger - INFO - Img Upload Success
+2023-02-28 07:06:07,922 - services.logger - INFO - Payload: production - circular

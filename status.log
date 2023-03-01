@@ -625,3 +625,6 @@
 2023-03-01 09:51:03,190 - services.logger - INFO - Payload: production - circular
 2023-03-01 11:45:51,533 - services.logger - INFO - Payload: production - circular
 2023-03-01 11:50:53,629 - services.logger - INFO - Payload: production - circular
+2023-03-01 11:55:31,250 - services.logger - INFO - Payload: production - result
+2023-03-01 11:55:31,291 - services.logger - INFO - Img Generation Success
+2023-03-01 11:55:37,207 - services.logger - INFO - Img Upload Success
